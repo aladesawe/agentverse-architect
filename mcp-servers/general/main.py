@@ -28,6 +28,7 @@ def inferno_resonance(base_fire_damage: int) -> str:
     Inferno Resonance
     Applies a resonance enchantment that amplifies ambient fire energy,
     multiplying the power of a fire spell by a factor of 3.
+    TODO: Return the final_damage and see if the agent caller will create an appropriate message.
     """
     final_damage = base_fire_damage * 3
     # Thematic success message for multiplication
